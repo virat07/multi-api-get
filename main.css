@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+@media (min-width:1024px){
+  .header{
+
+    border-bottom:   1px solid #cdcdcd;
+    background-color: #fff;
+    height: 75px;
+    display: -ms-flexbox;
+    display: flex;
+     
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box; 
+    
+  }
+  
+  .logo img{
+     width: auto;
+     height: 70px;
+      text-align: center;
+white-space: nowrap;
+    padding:4px;
+  }
+  .search-bar{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  #mySearch{
+    position: relative;
+    font-size: 16px;
+    color: #8f8f8f;
+    font-weight: 500;
+    height: 47px;
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px; 
+    appearance: none;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
+    padding: 0 10px 0 37px;
+    outline: none;
+    box-sizing: border-box;
+    z-index: 50;
+    background-color: transparent;
+  }
+  .artist{
+    border: 1px;
+    background-color: lavenderblush;
+    padding: 1px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: auto;
+
+} 
+.fa
+{
+  background-color: white;
+}   
+  .wrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.wrapper{
+  background-color: #fff;
+  padding: 20px 0;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: row;
+
+  
+}
+.name{
+  font-weight: bold;
+  margin-top: 4px;
+
+   }   
+   .tracker{
+      margin-top: 4px;
+      font-weight: 500;
+      text-align: center;
+   }    
+.upcomingevents div{
+  margin: 1px;
+  text-align: center
+}
+.events{
+  width: 60%;
+}
+
+}
+@media (max-width: 441px) {
+  .header{
+
+    border-bottom: 1px solid #cdcdcd;
+    background-color: #fff;
+    height: 75px;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box; 
+    
+  }
+  .logo img{
+      width: auto;
+     height: 30px;
+      text-align: center;
+white-space: nowrap;
+  }
+  .search-bar{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  #mySearch{
+    position: relative;
+    font-size: 16px;
+    color: #8f8f8f;
+    font-weight: 500;
+    height: 47px;
+    width: 100%;
+    border: 1px solid #cdcdcd;
+    border-radius: 3px; 
+    appearance: none;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.08);
+    padding: 0 10px 0 37px;
+    outline: none;
+    box-sizing: border-box;
+    z-index: 50;
+    background-color: transparent;
+  }
+  .artist{
+    border: 1px;
+    background-color: lavenderblush;
+} 
+  .wrapper img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+  }
+  .wrapper ul{
+    margin: 10px 0 0 15px;
+    letter-spacing: -.5px;  
+    text-align: center;
+   text-decoration: black solid;
+   list-style-type: none;
+   
+
+}
+.wrapper{
+    background-color: #fff;
+    padding: 20px 0;
+    border-radius: 2px;
+    
+
+    
+}
+.name{
+    font-weight: bold;
+    margin-top: 4px;
+
+     }   
+     .tracker{
+        margin-top: 4px;
+        font-weight: 500;
+        text-align: center;
+     }    
+
+
+
+ 
